@@ -9,8 +9,8 @@
     }],
     "require": {
         "php": "^8.0",
-        "inertiajs/inertia-laravel": "^0.4.1",
-        "laravel-arcanist/arcanist": "dev-main"
+        "laravel-arcanist/arcanist": "dev-main",
+        "inertiajs/inertia-laravel": "^0.5.4"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.13",
@@ -37,5 +37,10 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
+    }
 }
